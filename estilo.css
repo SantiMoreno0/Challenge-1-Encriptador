@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+header{
+    width: 100%;
+    height: 7%;
+    background-color:#AFAFFC;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    background-color: #F4F4FF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 30px;
+    width: 75px;
+    margin-top: 7px;
+}
+
+.logo:hover{
+    transition: all 1.5s;
+	transform: rotateY(360deg);
+}
+
+section{
+    width: 40%;
+    height: 100%;
+}
+
+.seccion1{
+    width: 70%;
+    background-color: #F4F4FF;
+}
+
+.textarea{
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 80%;
+    height: 60%;
+    font-size: 18px;
+    background-color: #E4E4FF;
+    padding: 70px;
+    resize: none;
+    border: none;
+    border-radius: 40px;
+}
+
+.textarea:hover{
+    background-color: #DADAFE;
+}
+
+.contenedor-btn-reglas{
+    width: 90%;
+    margin-top: 25px;
+}
+
+.advertencias{
+    font-size: small;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.contenedor-botones{
+    text-align: center;
+}
+
+.btn-encriptar{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    font-size: large;
+    background-color: #D7D7FF;
+    border-color: #A7A7FF;
+    border-radius: 15px;    
+}
+
+.btn-encriptar:hover{
+    background-color: #E1E1FF;
+    
+}
+
+.btn-desencriptar{
+    padding: 15px;
+    font-size: large;
+    background-color: #D7D7FF;
+    border-color: #A7A7FF;
+    border-radius: 15px;
+}
+
+.btn-desencriptar:hover{
+    background-color: #E1E1FF;
+    
+}
+
+.seccion2{
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 25%;
+    background-color: #E4E4FF;
+    border-radius: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 90%;
+}
+
+.contenedor-munieco-texto{
+    height: 100%;
+}
+
+
+.munieco{
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+.h3-munieco{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.p-munieco{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+.contenedor-resultado{
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.p-resultado{
+    margin-top: 30px;
+    height: 80%;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-y:auto;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D7D7FF;
+    font-size: 17px;
+}
+
+
+.contenedor-copiar{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    margin-top: 40px;
+}
+
+
+.btn-copiar{  
+    font-size: large;
+    background-color: #D7D7FF;
+    border-color: #A7A7FF;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.btn-copiar:hover{
+    background-color: #E1E1FF;  
+}
+
+
+footer{
+    width: 100%;
+    height: 3%;
+    background-color: #AFAFFC;
+    text-align: center;
+    font-size: 13px;
+}
+
+.ocultar{
+    display: none;
+}
