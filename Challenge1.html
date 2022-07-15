@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="https://kit.fontawesome.com/a1320c5793.js" crossorigin="anonymous"></script>
+        <title>Encriptador de Texto</title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="img/Logo.png" alt="Imagen de Alura">
+        </header>
+        <main>
+            <section class="seccion1">
+                <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Ingrese el mensaje a encriptar..."></textarea>
+                <div class="contenedor-btn-advertencias">
+                    <p class="advertencias">No utilizar letras mayusculas, acentos y/o caracteres especiales.</p>
+                    <div class="contenedor-botones">                   
+                         <input type="button" class="btn-encriptar" value="Encriptar">
+                        <input type="button" class="btn-desencriptar" value="Desencriptar">
+                    </div>
+                </div>
+             </section>
+            <section class="seccion2">
+                <div class="contenedor-munieco-texto ">
+                    <img src="img/Muñeco.png" class="munieco" alt="">
+                    <h3 class="h3-munieco">Ningún mensaje fue encontrado </h3>
+                    <p class="p-munieco">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="contenedor-resultado">
+                    <h3>Mensaje encriptado:</h3>
+                    <p class="p-resultado"></p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn-copiar" id="" value="Copiar">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p> Alura, todos los derechos reservados.</p>
+        </footer>
+        <script src="codigo.js"></script>
+    </body>
+</html>
